@@ -77,20 +77,20 @@
                             
                             
                             <div class="col-12 mb-2">
-                                <label class="form-label">Foto de perfil</label>
+                                <label class="form-label">Fotografía</label> <small class="text-danger"><strong>🚨 (Paso obligatorio para la aprobación del registro) 🚨</strong></small>                                
                                 <div class="text-center justify-content-center align-items-center p-4 p-sm-5 border border-2 border-dashed position-relative rounded-3">
                                     <!-- Image -->
                                     <img src="assets/images/element/gallery.svg" class="h-50px" alt="">
                                     <div>
-                                        <h6 class="my-2">Carga una imagen, or<a href="instructor-create-course.html#!" class="text-primary"> Browse</a></h6>
+                                        <h6 class="my-2">Arrastrar, o<a href="instructor-create-course.html#!" class="text-primary"> cargar desde mi equipo</a></h6>
                                         <label style="cursor:pointer;">
                                             <span> 
                                                 <input class="form-control stretched-link" type="file" name="profilepic_user" id="image_profilepic" accept="image/gif, image/jpeg, image/png" required />
                                             </span>
                                         </label>
-                                            <p class="small mb-0 mt-2"><b><span class="text-danger">Nota importante:</span></b> 
+                                            <h6 class=" mb-0 mt-2"><b><span class="text-danger">Nota importante:</span></b> 
                                             La imagen que cargue tiene que ser personal y en la cual se muestra en su mayoría su rostro ya que de eso depende que su registro sea autorizado.
-                                            </p>
+                                            </h6>
                                     </div>	
                                 </div>
                             </div>                                    

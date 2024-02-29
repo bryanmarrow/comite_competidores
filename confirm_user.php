@@ -2,7 +2,7 @@
 
 
     require 'db/dbconfig.php';
-    require 'functions/enviar_correo.php';
+    // require 'functions/enviar_correo.php';
 
     $user_id=$_GET['user_id'];
     $action=$_GET['action'];

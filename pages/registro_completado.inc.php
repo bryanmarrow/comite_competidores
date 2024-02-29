@@ -9,7 +9,8 @@
 				<!-- Subtitle -->
 				<h2>Su correo electrónico ya ha sido confirmado <br>y está a la espera de su aprobación.</h2>				
 				<!-- Button -->
-				<p>En un lapso no mayor a 72 horas, recibirá un correo electrónico con la aprobación de su registro para poder hacer uso de los beneficios.</p>
+				<h5>En un lapso no mayor a 72 horas, 
+					<span style="text-decoration: underline red;"> recibirá un correo electrónico con la aprobación de su registro</span> para poder hacer uso de los beneficios.</h5>
 			</div>
 		</div>
 	</div>

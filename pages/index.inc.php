@@ -4,18 +4,9 @@
 		<div class="row">
 			<!-- left -->
 			<div class="col-12 col-lg-6 d-md-flex align-items-center justify-content-center bg-primary bg-opacity-10 vh-lg-100">
-				<div class="p-3 p-lg-5">
-					<!-- Title -->
-					<div class="text-center">
-						<h2 class="fw-bold">Welcome to our largest community</h2>
-						<p class="mb-0 h6 fw-light">Let's learn something new today!</p>
-					</div>
-					<!-- SVG Image -->
-					<img src="assets/images/element/02.svg" class="mt-5" alt="">
-					
-				</div>
+				<img src="assets/images/element/dancers_01.svg"  alt="" style="width: 80rem;">
 			</div>
-
+			
 			<!-- Right -->
 			<div class="col-12 col-lg-6 m-auto">
 				<div class="row my-5">
@@ -32,7 +23,7 @@
 								<label for="exampleInputEmail1" class="form-label">Email address *</label>
 								<div class="input-group input-group-lg">
 									<span class="input-group-text bg-light rounded-start border-0 text-secondary px-3"><i class="bi bi-envelope-fill"></i></span>
-									<input type="email" name="email_login" id="email_login" class="form-control border-0 bg-light rounded-end ps-1" placeholder="E-mail" >
+									<input type="email" name="email_login" id="email_login" class="form-control border-0 bg-light rounded-end ps-1" placeholder="E-mail" required>
 								</div>
 							</div>
 							<!-- Password -->
@@ -40,7 +31,7 @@
 								<label for="inputPassword5" class="form-label">Password *</label>
 								<div class="input-group input-group-lg">
 									<span class="input-group-text bg-light rounded-start border-0 text-secondary px-3"><i class="fas fa-lock"></i></span>
-									<input type="password" name="pass_login" id="pass_login" class="form-control border-0 bg-light rounded-end ps-1" placeholder="password" >
+									<input type="password" name="pass_login" id="pass_login" class="form-control border-0 bg-light rounded-end ps-1" placeholder="password" required>
 								</div>
 					
 							</div>
