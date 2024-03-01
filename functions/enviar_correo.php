@@ -16,6 +16,7 @@ function nuevo_registro($data_email){
     $user_id=base64_encode($data_email['id_register_comite']);
     $url_confirmacion=$url_el.'confirm_user?action=confirm_email&user_id='.$user_id;
     $name_register_comite=$data_email['name_register_comite'];
+    $email_register_comite=$data_email['email_register_comite'];
 
     try{
         // //    Envio de correo
@@ -44,7 +45,7 @@ function nuevo_registro($data_email){
 
         $mail->Subject = 'Confirma tu correo electrónico - Comité de Competidores #EurosonLatino';
 
-        $mail->AddAddress('bryan.martinez.romero@gmail.com', 'Bryan Martinez');
+        $mail->AddAddress($email_register_comite, $name_register_comite);
         $mail->addBCC('bryan.martinez.romero@gmail.com');
         $mail->isHTML(true);
 
